@@ -11,7 +11,7 @@ import com.fhx.calculator.model.operator.Operator;
 public class Divide implements Operator {
 
     @Override
-    public synchronized Double calculate(Double number1, Double number2) {
+    public Double calculate(Double number1, Double number2) {
         return number1/number2;
     }
 
